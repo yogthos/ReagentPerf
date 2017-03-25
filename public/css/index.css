@@ -1,0 +1,73 @@
+body {
+    font-family: "Devanagari Sangam MN"
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
+td, th {
+    padding: 0;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.cell--teams {
+    padding-left:25px
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards__card {
+    padding: 5px;
+}
+
+.cards__card--yellow {
+    background-color: #fff68f;
+}
+
+.cards__card--red {
+    background-color: #f44343
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__name {
+    padding: 0 0 0 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.player__effort {
+    width: 20px;
+}
+
+.player__effort--low {
+    background-color: #f77b7b;
+}
+
+.player__effort--high {
+    background-color: #49B687;
+}
+
+.u-center {
+    text-align: center;
+}
+
+.u-small {
+    font-size: 10px;
+}
